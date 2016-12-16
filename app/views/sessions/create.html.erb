@@ -1,0 +1,9 @@
+<h1>Sessions#create</h1>
+<p>Find me in app/views/sessions/create.html.erb</p>
+<h1>Welcome to RBR DUCK!</h1>
+<%= form_for :user do |f| %>
+
+  <%= f.email_field :email, placeholder: "Email" %>
+  <%= f.password_field :password_digest, placeholder: "Password" %>
+  <%= f.submit "Create User", class: "btn btn-success" %>
+<%end%>
